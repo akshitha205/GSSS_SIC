@@ -1,0 +1,100 @@
+11-08-2025  day-1:
+..............................................................................................................
+working with git
+* login and setup account
+* create new git repository
+* to create new rep on home page click on + symbol
+
+give repo name
+description
+visibilty of repo: public
+select the add READ ME file
+add a new file within github
+
+now go to repo you wish work with
+click on add new file icon (+)
+now give the name of the file ( u can create new file in sub file)
+add content of the file 
+now commit. optionally we can give descriptionof commit
+
+CLONING OF GITHUB:
+
+Cloning in Git means making a full copy of a remote repository (like on GitHub) to your local machine.
+TO ADD CONTEX TO FILE
+$ git add .
+
+TO COMMIT MESSAGE
+$ git commit -m"<message>"
+
+TO PUSH THE CONTEXT:
+$ 	git push origin main
+
+git restote --staged(staged to unstaged)
+---------------------------------------------------------------------------------------------------
+GIT CONFIGURATIONS:
+
+username and email are two things it will save in computer(creditals)
+there are 2 commands for configurations*
+$git config user.name"user_name"
+$git config user.email"user_mail" 
+applicable to only path we are running
+
+$git config --global user.name"user_name"
+$git config --global user.email"user_mail"
+to run globally 
+----------------------------------------------------------------------------------------------------------
+CREATING PAT (personal access token):
+$ git clone https://pat@github.com/nandu-veluru/gsss_sic
+
+steps:
+click on profile icon and click settings
+scroll down on left-bottom corner developer settings
+on top left corner,click PAT,click token classic
+add note for new pat
+select expirey -> no expirey
+select the top check box "repo"
+click on green button generate token 
+---------------------------------------------------------------------------------------------
+TO UPDATE REMOTE REPO W.R.T LOCAL (to copy files from local repo to remote):
+the three commands are:
+add
+commit
+push
+templates for add:
+$ git add<path>
+examples:
+$ git add.
+store all files from the current folder and all files from sub folder also
+ 
+$ git add ./folder
+stages all fles from the sub folder named "programs" and all files from its sub folder also
+ 
+templates for commit:
+$ git commit -m "<revelent message>"
+ 
+example:
+$ git commit -m "program for implementing binary search using recursin is added. though it is bad 
+way to slove the problem using recurssion"
+  
+  
+template for push:
+$ git push
+if you are sure of pushing ito the main branch alternatively if we have no other branch
+  
+$git push origin backend
+if we are sure enough to push to a speific branch provided we are in the specific branch
+  
+TO UPDATE REMOTE REPO W.R.T LOCAL (to copy files from local repo to remote):
+  
+$ git pull origin main
+note that if any files are deleted in the remote repo, these files will also deleted in the local repo
+--------------------------------------------------------------------------------------------------------
+PYTHON:
+
+print() here print is returing nothing
+
+print(print('i love pyton prog')) here inner print is returing none while outer print is returing the statement 
+
+
+
+ 

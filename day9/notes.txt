@@ -1,0 +1,8 @@
+
+Bubble sort :
+    Its a Trival(simpler) and traditional way of sorting techinque, such kind of techinque we call as "BRUTE FORCE"
+
+    2,506
+
+    70+630+215+30+130+55
+    

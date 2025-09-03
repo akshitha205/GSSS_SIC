@@ -1,0 +1,17 @@
+
+LIST SLICING:
+
+capitals = ["New Delhi", "Chandigarh", "Chandigarh", "Lucknow", "Dehradun", "Jaipur", "Shimla", "Srinagar", "Jammu", "Leh"]
+
+Assignment:
+            Why there is no index error in slicing?
+            implement a function find mimics to the find method in string class
+                *By using th index() opertion:
+                    s = "where_there_is_will_there_i_as_way"
+                    print(s.index("will"))
+
+                    Returns the index number of will if the key is not present it will returns value error
+
+            my_str = 'mysuru'
+            my_str.find('m)
+            output = 0 why???

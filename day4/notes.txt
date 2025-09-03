@@ -1,0 +1,43 @@
+
+How to print a statement that to read until a key enterd ?
+Dyanimic memory allocation & static memory allocation ?
+Memory allocation is always done at run-time.
+deletion and insertion in difference in different lanuguage (by automated)
+class is a solution for entity
+learn about class ?
+--------------------------------------
+list in Python
+list as a DS
+What is a DS?
+Birth of a DS like list/array
+implimentation of an array in memory using addresses and adress arithmetic
+Uses
+Pros and Cons
+Alternatives
+Beyond list
+
+Its a collection of items/data
+All the items are stored in contigious memory locations. That is if you any 2 consecutive elements, then there is no gap in between them.
+list, specifically in Python need not be of the same type as in the case of C/C++/Java etc.
+
+What is a DS?
+int numbers[10]; // DS
+int num1, num2, num3, num4, num5; // May or may not be a DS
+
+The lookup (accessing any element in the array/list) is one unit time.
+Thus the efficiency of accessing an element in the array is O(1)
+Usually size of an array is fixed. Because of which there are almost always chances of either wastage of memory or shortage of memory.
+Thus, an array is time efficient DS but memory inefficienct DS.
+
+Assume size value is given by user at runtime
+float *numbers = new float[size];
+float[] numbers = new float[size];
+
+float numbers[20];
+
+Good example of list/array:
+To store names of girls of SIC training.
+To store distances of the places to be visited in the order of places of the trip.
+Not good examples of Array/List:
+To store all the UPI transactions of a specific date in the entire country.
+To store details of the items bought by a customer in a mall?

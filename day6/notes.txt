@@ -1,0 +1,18 @@
+
+FUNCTION CALL STACK:
+    How function work implicity
+
+    Accumulatory: Used to store the intermediate result within the processor
+
+
+
+    code area
+    GDS(global data seegment)
+
+--------------------------------------------------------------------
+
+my_str = {{{}{}}}
+
+pdb -
+
+Take a any four digit number it should  not repead more than twice

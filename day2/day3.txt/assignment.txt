@@ -1,0 +1,13 @@
+Why in python we dont have increment and decrement option ?
+Learn __main__ in python ?
+PIP3 what is pythonic ?
+"var_args"
+Can we modify the list which is an eement in tuple ?
+yield means?
+Ranges by using def ?
+List comphersion ?
+Pass the command line arguments into list ?
+The line which holds comand line argumments - argv
+This is presesnt in "sys" module
+Why the argv stores the zero why it is used ?
+Why in python there is no implict typecasting in python ?
